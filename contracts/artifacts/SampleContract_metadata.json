@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "myString",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_newString",
+						"type": "string"
+					}
+				],
+				"name": "updateString",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Wallet/contracts/ContractControl.sol": "SampleContract"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Wallet/contracts/ContractControl.sol": {
+			"keccak256": "0xe8ec9dbc5a6ba9dcfcfcda2a803c53f0a1b80c372e2bfc93bc5fb7f3a6a2bea7",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a03c272772e6a2b7faf6650c8cdec0a92f67fb67b3c5cce318e068e6e7b3b44b",
+				"dweb:/ipfs/QmVAhmBmNyHgM2avW9HLZcsMZFvBqFxaa4Ytj6Yq56PCR1"
+			]
+		}
+	},
+	"version": 1
+}

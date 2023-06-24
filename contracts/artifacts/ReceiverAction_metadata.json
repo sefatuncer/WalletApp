@@ -1,0 +1,76 @@
+{
+	"compiler": {
+		"version": "0.8.20+commit.a1b79de6"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "balance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "balanceReceived",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Wallet/contracts/SendTransfer.sol": "ReceiverAction"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Wallet/contracts/SendTransfer.sol": {
+			"keccak256": "0x1455b5640458f8b5c3c08035b08f1d83e24bc0d16e2e641e1de3d3afc781909e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ad1f95c0ae44fce811cb08c7cdec2ab7abed0e71bc849f7eb5581efe0ea55228",
+				"dweb:/ipfs/QmbKeJwWN6w4r7KczfQL6tH7WjQBDVdXZZgsbbsRRxh3ij"
+			]
+		}
+	},
+	"version": 1
+}

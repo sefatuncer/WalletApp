@@ -1,0 +1,73 @@
+{
+	"compiler": {
+		"version": "0.8.20+commit.a1b79de6"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "transfer",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Wallet/contracts/SmartContractWallet.sol": "SmartContractWallet"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Wallet/contracts/SmartContractWallet.sol": {
+			"keccak256": "0xcd544083d351083f56b88698061663f077f52f090604e696af6c079a50e0a9dc",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f2fa39eb9cfcb30273ae9553797b0726ad1f6b6297067e9c94eaccab105b67df",
+				"dweb:/ipfs/QmbcpFKVaADxnvyo1692pWbYDu4AptmnYrvHH2yxSsTwRm"
+			]
+		}
+	},
+	"version": 1
+}
