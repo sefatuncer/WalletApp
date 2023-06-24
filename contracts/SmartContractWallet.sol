@@ -31,6 +31,7 @@ contract SmartContractWallet {
         guardians[_guardian] = _isGuardian;
     }
 
+    // Required to recover account
     function proposeNewOwner(address payable _newOwner) public {
         require(guardians[msg.sender], "You are not guardian of this wallet, aborting!!!");
         require(nextOwnerGuardianVotedBool[_newOwner][msg.sender] == false, "You already voted, aborting!!!");
@@ -46,7 +47,8 @@ contract SmartContractWallet {
             nextOwner = payable(address(0));
         }
     }
-
+    
+    // Allowances sent from any address are greater than 0
     function setAllowance(address _for, uint _amount) public {
         require(msg.sender == owner, "You are not the owner, aborting");
         allowance[_for] = _amount;
